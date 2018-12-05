@@ -3,7 +3,6 @@ import praw
 import os
 import telebot
 import time
-from webhook import WebHook
 from dotenv import load_dotenv
 import requests
 import json
