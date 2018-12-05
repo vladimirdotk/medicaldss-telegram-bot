@@ -92,7 +92,7 @@ def _get_result(lab_data):
         )
         return r.json()['coagulopathy_option']
     except Exception as e:
-        logger.warn(e)
+        logger.info(e)
         return "возникла ошибка при запросе данных"
         
 
