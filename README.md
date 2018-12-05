@@ -5,7 +5,7 @@
 + Run `pipenv install`
 + Copy .env.dist to .env and change variables
 + Activate vitrual env `pipenv shell`
-+ Run `python bot.py
++ Run `python bot.py`
 
 ## Alternative way to start
 + Run `docker-compose up` with optional -d flag
